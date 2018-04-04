@@ -56,7 +56,7 @@ class Song
     name_and_artist = filename.split("-")
     artist_name = name_and_artist[0]
     song_title = name_and_artist[1]
-    song = self.new
+    song = self.create
     song.name = song_title.strip.chomp('.mp3')
     song.artist_name = artist_name.strip
     song
