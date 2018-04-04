@@ -59,7 +59,6 @@ class Song
     song = self.new
     song.name = song_title.strip.chomp('.mp3')
     song.artist_name = artist_name.strip
-    song.create
     song
   end
 end
